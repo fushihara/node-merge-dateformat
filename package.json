@@ -1,0 +1,17 @@
+{
+  "name": "merge-header-dateformat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/dateformat": "^1.0.1",
+    "@types/node": "^10.5.4",
+    "typescript": "^2.9.2"
+  }
+}
