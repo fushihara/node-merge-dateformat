@@ -1,10 +1,15 @@
 {
-  "name": "merge-header-dateformat",
+  "name": "@fushihara/merge-header-dateformat",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Fushihara",
+    "url": "https://fushihara.io/"
+  },
+  "scripts": {
+    "prepublish": "tsc.cmd -p ./tsconfig.json"
+  },
   "license": "MIT",
   "dependencies": {
     "dateformat": "^3.0.3"
@@ -13,5 +18,14 @@
     "@types/dateformat": "^1.0.1",
     "@types/node": "^10.5.4",
     "typescript": "^2.9.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fushihara/node-merge-header-dateformat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fushihara/node-merge-header-dateformat/issues"
+  },
+  "homepage": "https://github.com/fushihara/node-merge-header-dateformat#readme",
+  "description": "複数行のテキストの各行にタイムスタンプを挿入する"
 }
