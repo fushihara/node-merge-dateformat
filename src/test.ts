@@ -1,5 +1,5 @@
-import { mergeHeaderDateformat } from ".";
-const tt = (a: string) => mergeHeaderDateformat(a);
+import { mergeDateformat } from ".";
+const tt = (a: string) => mergeDateformat(a);
 console.log(tt(`import * as dateformat from "dateformat";
 function テキストを1行づつに分割(テキスト: string): string[] {
   return テキスト.split("\n");

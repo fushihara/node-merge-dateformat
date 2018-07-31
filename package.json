@@ -1,5 +1,5 @@
 {
-  "name": "@fushihara/merge-header-dateformat",
+  "name": "@fushihara/merge-dateformat",
   "version": "1.0.0",
   "main": "./out/index.js",
   "keywords": [],

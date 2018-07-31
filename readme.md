@@ -1,8 +1,8 @@
 複数行の文字列の各行にタイムスタンプを接頭語として追加した文字列を返します。
 
 ```
-import { mergeHeaderDateformat } from ".";
-mergeHeaderDateformat(`あいうえお\nかきくけこ\nさしすせそ`);
+import { mergeDateformat } from ".";
+mergeDateformat(`あいうえお\nかきくけこ\nさしすせそ`);
 /*
 2018/07/30(月)00:59:59.999 あいうえお
 2018/07/30(月)00:59:59.999 かきくけこ
