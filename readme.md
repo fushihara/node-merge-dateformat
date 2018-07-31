@@ -12,6 +12,8 @@ mergeDateformat(`あいうえお\nかきくけこ\nさしすせそ`);
 
 pm2のログで使う為に作りました。
 
-## history
+## npmでのhistory
+
+`npm publish --access=public` した時の履歴。git上の履歴ではない。v1.0.0という表記は`package.json`上の値。
 
 - 2018/07/31 v1.0.0公開 npm公開の手順を確認していたので、パッケージ名を変更して再アップロードした。
